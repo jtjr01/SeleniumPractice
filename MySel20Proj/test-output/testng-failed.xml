@@ -5,6 +5,7 @@
     <classes>
       <class name="testng.FirstTestNG">
         <methods>
+          <include name="terminateBrowser"/>
           <include name="visitSecondResultAfterSearch"/>
         </methods>
       </class> <!-- testng.FirstTestNG -->
